@@ -1,0 +1,6 @@
+This application for this exercise is the same as the one for exercise 2-1, except that the formatting is done with CSS instead of a table. 
+This time, the formatting will be the way it is below and the form will be centered in the browser. 
+For this exercise, you will start a new web site and add the Default.aspx file and its code-behind file from the application for exercise 2-1.
+You will also add the CSS file from the Future Value application. 
+Then, you will modify the Default.aspx file so the web site uses CSS for formatting. 
+That will help you appreciate how much simpler the aspx code is when you separate the formatting from the content.

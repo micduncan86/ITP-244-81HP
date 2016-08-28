@@ -1,0 +1,4 @@
+For this exercise, you will build a one-page application with the user interface that’s shown below. 
+This time, the user will enter the sales price and discount percent, and the application will calculate 
+and display the discount amount and total price. 
+If a user entry is invalid, an error message will be displayed to the right of the related text box.

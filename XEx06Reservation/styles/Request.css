@@ -1,0 +1,36 @@
+﻿/* styles for the elements */
+label {
+    margin-right: 1em;
+}
+input {
+    margin-bottom: .5em;
+}
+select {
+    margin-bottom: .5em;
+    width: 3em;
+}
+textarea {
+    height: 5em;
+    width: 25em;
+    margin-bottom: .5em;
+}
+/* styles for the class selectors */
+.label {
+    float: left;
+    width: 9em;
+}
+.entry {
+    width: 12em;
+}
+.button {
+    margin-top: 1em;
+    padding: .25em .5em;
+    width: 7em;
+}
+/* styles for the ID selectors */
+#ddlPreferredMethod {
+    width: 7em;
+}
+#lblMessage {
+    color: green;
+}

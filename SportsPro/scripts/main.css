@@ -1,0 +1,207 @@
+﻿body {
+    padding: 15px;
+    border: solid thick navy;
+    margin: 10px auto;
+    width: 800px;
+    background: url("../images/bg-pattern.jpg");
+}
+
+    body > form > header {
+        background: url("../images/banner.jpg") no-repeat right, url("../images/bg-pattern.jpg");
+        background-blend-mode: darken;
+        border-radius: 35px;
+    }
+
+    body header > p:nth-child(1) {
+        position: relative;
+        top: -30px;
+    }
+
+    body header > p:nth-child(2) {
+        color: white;
+        font-size: 0.3em;
+        margin: 0;
+        position: relative;
+        margin-top: -30px;
+        top: 0px;
+        background-color: rgba(0,0,0,0.4);
+        padding: 0 5px;
+    }
+
+
+    body > form > header {
+        font-size: 5em;
+        font-weight: bold;
+        color: #63a738;
+    }
+
+    body > form > footer {
+        background-color: #5c9641;
+        padding: 5px;
+        color: white;
+    }
+
+        body > form > footer > a, a:hover, a:active, a:visited {
+            color: #fff;
+        }
+
+nav {
+    min-height: 30px;
+    background-color: #5c9641;
+}
+
+    nav .menu {
+        text-align: right;
+        float: right !important;
+    }
+
+    nav a:hover {
+        background-color: #84d45e;
+    }
+
+    nav a, nav > ul li {
+        color: white;
+        background-color: #5c9641;
+        padding: 5px;
+    }
+
+    nav .menu > ul > li > ul {
+        border-bottom: 1px solid silver;
+        border-left: 1px solid silver;
+        border-right: 1px solid silver;
+        border-radius: 15px;
+    }
+
+
+
+
+
+
+
+
+.dgcustomerdtl td {
+    padding: 5px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.ddlCustomer {
+    min-width: 150px;
+}
+
+.displayformat > label {
+    width: 12em;
+    height: 19px;
+}
+
+.ContactList select {
+    float: left;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+    background-color: rgb(238, 238, 238);
+}
+
+    .ContactList select> option {
+        color: Black;
+        
+    }
+
+        .ContactList select> option:nth-child(2n+1) {
+            color: Black;
+            background-color: Gainsboro;
+        }
+        
+
+.rblSurvey input , .rblSurvey label {
+    margin: 2px 5px;
+}
+
+
+.validator[style*=visible] + input,
+.validator[style*=visible] + select,
+.validator[style*=inline] + input,
+.validator[style*=inline] + span + input {
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+
+.validator[style*=inline] {
+    display: none;
+}
+
+.validator {
+    color: #ff0000;
+}
+
+
+#divAddProduct {
+    padding: 5px;
+    min-height: 40px;
+}
+
+    #divAddProduct > label {
+        float: left;
+        width: 10em;
+    }
+
+    #divAddProduct > input {
+        margin-bottom: 5px;
+    }
+
+
+
+.datagrid {
+    background-color: White;
+    border-color: rgb(153, 153, 153);
+    border-width: 1px;
+    border-style: none;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .datagrid .dgheader {
+        color: White;
+        background-color: #5c9641;
+        font-weight: bold;
+    }
+
+    .datagrid a {
+        color: White;
+        margin: 5px 2px;
+    }
+
+    .datagrid .dgrow {
+        color: Black;
+        background-color: #eeeeee;
+    }
+
+    .datagrid .dgaltrow {
+        color: Black;
+        background-color: #dcdcdc;
+    }
+
+.btn {
+    background-color: #41861c !important;
+}
+
+.row > div > section {
+    background-color: #5c9641;
+    border-color: #2e6da4;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: -5px;
+    color: white;
+}
+
+.div404 {
+    background-image: url('../images/404.jpg');
+    min-height: 430px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="SportsPro.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SportsPro: Sports management...</title>
+    <link href="styles/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="styles/main.css" type="text/css" rel="stylesheet" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmmenu" runat="server">
+    <header>
+        <p>SportsPro</p>
+        <p>Management sofware for sports enthusiast</p>
+    </header>
+    <nav>        
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" CssClass="menu" DynamicMenuItemStyle-CssClass="navMenuItems" StaticSubMenuIndent="16px" Orientation="Horizontal" StaticDisplayLevels="2">
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </nav>
+    <section style="margin:10px 0;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </section>
+    <footer>
+        To contact us, call us at 800-555-0400 or email us at
+        <a href="mailto:sportspro@sportsprosoftware.com">sportspro@sportsprosoftware.com</a>
+    </footer>
+                </form>
+    <script src='<%= ResolveUrl("~/scripts/jquery-3.1.0.min.js") %>'></script>
+    <script src='<%= ResolveUrl("~/scripts/bootstrap.min.js") %>'></script>
+</body>
+</html>
